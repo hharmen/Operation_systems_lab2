@@ -9,9 +9,9 @@
 
 
 int main(void){
-//=====Объявил переменные==========
     signal(SIGPIPE, SIG_IGN);
     srand(time(NULL));
+    //=====Объявил переменные==========
     char *word = NULL;
     char *name1 = NULL;
     char *name2 = NULL;
